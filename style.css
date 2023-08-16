@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,300;1,400;1,700&family=Roboto:wght@300&family=Ubuntu+Condensed&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #61677A;
+
+}
+
+.transparent-image-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.transparent-image-container img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background-color: #272829;
+    color: #D8D9DA;
+  
+}
+
+.logo {
+    margin-left: 30px;
+    font-size: 25px;
+
+}
+
+.logo:hover {
+    color: #FFF6E0;
+    font-size: 1.74rem;
+    cursor: pointer;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+    nav ul li {
+        list-style: none;
+        padding: 10px;
+        color: #D8D9DA;
+        margin-right: 45px;
+        text-decoration: none;
+
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #D8D9DA;
+    }
+    nav ul li a:hover{
+        color: #FFF6E0;
+    font-size: 1.40rem;
+    cursor: pointer;
+    }
+
+nav ul li:hover {
+    color: rgb(64, 64, 173);
+    font-size: 1.04rem;
+    cursor: pointer;
+}
+
+/* nav */
+.container {
+    display: flex;
+    column-gap: 110PX;
+ 
+}
+.left {
+
+    height: 750px;
+    width: 600px;
+}
+
+.left img {
+    width: 100%;
+    margin: 140px 130px;
+    align-items: center;
+    justify-content: center;
+    border: 40%;
+    border-radius: 40px;
+}
+
+.rigth {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 750px;
+    width: 600px;
+    padding-left: 200px;
+    margin-bottom: 40px;
+}
+
+.hire {
+    background-color: #2C3333;
+    text-decoration: none;
+    padding: 13px 30px;
+    font: bold;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: .4s;
+    font-size: 20px;
+    color: #FFF6E0;
+}
+
+.hire:hover {
+    border: 2px solid #000000;
+    border-radius: 2px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px #0e111b;
+}
+
+/* about me */
+.about {
+    height: 150%;
+    width: 100%;
+    padding: 100px 0px;
+  
+    
+}
+
+.about-text {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main img {
+    border-radius: 50%;
+}
+
+
+.about-text h1 {
+    color: #000000;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h3 {
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: #202020;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.about-text P {
+    color: #1f2020;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-bottom: 45px;
+    font-size: 30px;
+    font-family: 'Roboto+Condensed' 'Gill Sans', 'Gill Sans MT' 'Trebuchet MS', sans-serif;
+}
+
+
+/* service */
+.service {
+    width: 100%;
+    padding: 100px 0px;
+    
+}
+
+.title h2 {
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+}
+
+.cards {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    border-radius: 20px;
+    margin: 15px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    background-color: #272829;
+    color: #D8D9DA;
+    font-size: 15px;
+}
+.card img{
+    width: 5px;
+    height: 5px;
+
+}
+.cards i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+}
+
+h5 {
+    font-size: 23px;
+    margin-bottom: 15px;
+    line-height: 27px;
+}
+
+.pra p {
+    line-height: 27px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.cards button {
+    background-color: #2C3333;
+    text-decoration: none;
+    padding: 13px 30px;
+    font: bold;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: .4s;
+    color: #FFF6E0;
+    font-size: 20px;
+}
+
+.cards button:hover {
+    border: 2px solid #000000;
+    border-radius: 2px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px #0e111b;
+}
+
+/* contact me */
+.contact-me {
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    font-size: 30px;
+    text-transform: capitalize;
+
+}
+
+.contact-me p {
+    font-size: 25px;
+    letter-spacing: 4px;
+    color: #202020;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    font-family: Verdana, Geneva, Tahoma, sa
+}
+
+.contact-me .buuton-two {
+
+    background-color: #2C3333;
+    text-decoration: none;
+    padding: 13px 30px;
+    font: bold;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: .4s;
+    color: #FFF6E0;
+    font-size: 20px;
+}
+
+.buuton-two:hover {
+    border: 2px solid #000000;
+    border-radius: 2px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px #0e111b;
+}
+
+footer {
+    background-color: #272829;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p:nth-child(1) {
+    font-size: 30px;
+    color: antiquewhite;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2) {
+    font-size: 17px;
+    color: antiquewhite;
+    margin-bottom: 20px;
+    font-weight: bold;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+    margin-top: 30px;
+}
+
+.socialicons {
+    display: flex;
+    height: 50px;
+    width: 250px;
+    justify-content: space-evenly;
+}
+
+.socialicons a {
+    width: 450px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 22px 10px;
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.socialicons a:hover {
+    border: 3px solid #000000;
+    border-radius: 2px;
+    cursor: pointer;
+    box-shadow: 0 0px 10px #0e111b;
+}
